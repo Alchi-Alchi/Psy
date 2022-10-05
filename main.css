@@ -1,0 +1,618 @@
+﻿#main {
+  background-image: url(images/start-screen-gradient-background.png);
+  background-size: cover;
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+.header-main {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 8em;
+}
+
+#logo > div > h1 {
+  letter-spacing: 0.06em;
+  font-family: 'Georgia';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 10%;
+  color: #F1CDB3;
+}
+
+#logo > div > span {
+  font-family: 'Arial';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 15px;
+  letter-spacing: 0.1em;
+  color: #FFFFFF;
+}
+
+#menu > li > a {
+  color: #FAFAFA;
+}
+
+#notOnly {
+  display: flex;
+  justify-content: space-between;
+}
+
+#notOnly > img{
+  position: relative;
+  right: 2.5em;
+}
+
+#annotation {
+  position: relative;
+  top: 8em;
+  margin-left: 2.5em;
+}
+
+#annotation > h2 {
+  width: 60%;
+  margin-bottom: 0.9em;
+  font-family: 'Georgia';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 44px;
+  line-height: 130%;
+  color: #FFFFFF;
+}
+
+#annotation > p {
+  width: 85%;
+  font-family: 'Arial';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 160%;
+  color: #CDCDCD;
+  margin-bottom: 2.9em;
+}
+
+#makeBtn, #getBtn {
+  background-color: #F1CDB3;
+  border: none;
+  padding: 15px 45px;
+  border-radius: 100px;
+  font-family: 'Georgia';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 130%;
+  letter-spacing: 0.06em;
+  color: #292929;
+}
+
+#makeBtn:hover, #getBtn:hover {
+  transition: all 1s ease;
+  background-color: #FDDCC4;
+}
+
+#getBtn {
+  position: relative;
+  margin: 1em 0 7em 0;
+}
+
+#aboutUs, #ourFriends, #help, #donation {
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+#aboutUs {
+  display: flex;
+  justify-content: center;
+}
+
+#aboutUs > img {
+  position: relative;
+  height: 80%;
+  top: 5em;
+  left: -5em;
+}
+
+#ourFriends, #donation {
+  background-color: #F6F6F6;
+}
+
+#ourFriends > h3 {
+  position: relative;
+  top: 1.7em;
+  margin-bottom: 3.3em;
+  font-family: 'Georgia';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 35px;
+  line-height: 130%;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: #545454;
+}
+
+.slider-pets {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.slider-wrapper {
+  display: flex;
+  position: relative;
+  left: 0;
+  transition: all ease 1s;
+}
+
+.modal {
+  width: 100%;
+  height: 100%;
+  display: none;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  overflow: auto;
+  background-color: rgb(0,0,0);
+  background-color: rgba(0,0,0,0.4);
+}
+
+.modal-content {
+  display: flex;
+  background-color: #fefefe;
+  margin: 15% auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%;
+}
+
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.name {
+  font-family: 'Georgia';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 35px;
+  line-height: 130%;
+  letter-spacing: 0.06em;
+  color: #000000;
+}
+
+.type, .breed {
+  font-family: 'Georgia';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 115%;
+  letter-spacing: 0.06em;
+  color: #000000;
+}
+
+.description, .description-list {
+  font-family: 'Georgia';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 110%;
+  letter-spacing: 0.06em;
+  color: #000000;
+}
+
+.title {
+  font-weight: bold;
+}
+
+#btnArrow1, #btnArrow2 {
+  width: 50px;
+  height: 50px;
+  border: 2px solid #F1CDB3;
+  box-sizing: border-box;
+  border-radius: 100px;
+  background-color: #FFFFFF;
+  cursor: pointer;
+}
+
+#btnArrow1:hover, #btnArrow2:hover {
+  transition: all 1s ease;
+  background-color: #F1CDB3;
+}
+
+#btnArrow1 {
+  transform: rotate(-180deg);
+}
+
+#btnWrapper {
+  text-align: center;
+}
+
+#text-block_aboutUs {
+  width: 30%;
+  margin-bottom: 8em;
+}
+
+#text-block_aboutUs > p {
+  width: 110%;
+  position: relative;
+  top: 3.2em;
+  left: 2.5em;
+  margin-bottom: 1.5em;
+  font-family: 'Arial';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 160%;
+  color: #4C4C4C;  
+}
+
+#text-block_aboutUs > h3 {
+  position: relative;
+  top: 1.7em;
+  left: 1.1em;
+  font-family: 'Georgia';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 35px;
+  line-height: 130%;
+  letter-spacing: 0.06em;
+  color: #545454;
+}
+
+#help > h3 {
+  font-family: 'Georgia';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 35px;
+  line-height: 130%;
+  text-align: center;
+  letter-spacing: 0.06em;
+  margin: 1.7em 1.6em;
+  color: #545454;
+}
+
+#icons {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+#icon {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: space-between;
+  max-width: 60px;
+  margin: 0 6em 3em 5em;
+}
+
+#icon > span {
+  white-space: nowrap;
+  margin: 1.5em 0;
+  font-family: 'Georgia';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 115%;
+  letter-spacing: 0.06em;
+  text-align: center;
+  color: #545454;
+}
+
+#donation {
+  display: flex;
+  justify-content: center;
+}
+
+#donation > img {
+  margin: 5.8em 1.9em 5.5em 1em;
+}
+
+#donateInfo {
+  width: 30%;
+}
+
+#donateInfo > h3 {
+  width: 80%;
+  font-family: 'Georgia';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 35px;
+  line-height: 130%;
+  letter-spacing: 0.06em;
+  color: #545454;
+  margin: 2.4em 1em 0 0;
+}
+
+#donateInfo > h5 {
+  font-family: 'Georgia';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 110%;
+  letter-spacing: 0.06em;
+  margin: 1.1em 0.5em 1.1em 0;
+  color: #545454;
+}
+
+#donateInfo > p {
+  font-family: 'Arial';
+  font-style: italic;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 18px;
+  margin: 1.5em 3em 0 0;
+  color: #B2B2B2;
+}
+
+#credit-card {
+  font-family: 'Georgia';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 115%;
+  letter-spacing: 0.06em;
+  border-radius: 9px;
+  padding: 10px 15px;
+  background-color: #F1CDB3;
+  color: #545454;
+}
+
+#credit-card > a {
+  text-decoration: none;
+  color: #292929;
+}
+
+@media (max-width: 1280px) {
+  #ourFriends, #help, #donation, #aboutUs, #main {
+    max-width: 768px;
+  }
+  .header-main {
+    margin-top: -3em;
+    margin-bottom: 4em;
+  }
+  #logo, nav {
+    margin-top: 3rem;
+  }
+  #notOnly {
+    flex-direction: column;
+  }
+  #notOnly > img{
+    position: relative;
+    top: 10rem;
+    left: 10rem;
+    width: 75%;
+    margin-bottom: 10rem;
+  }
+  #annotation {
+    width: 71%;
+    top: 4rem;
+  }
+  #annotation > h2, #annotation > p {
+    margin-left: 7rem;
+  }
+  #btnWrap {
+    position: relative;
+    left: 15rem;
+    width: max-content;
+  }
+  #aboutUs {
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+  #aboutUs > img {
+    position: relative;
+    width: 39%;
+    margin-bottom: 10rem;
+    top: 6em;
+    left: 0;
+  }
+  #text-block_aboutUs {
+    width: 55%;
+    margin: 0 auto;
+  }
+  #text-block_aboutUs > p {
+    width: 100%;
+    position: relative;
+    top: 2.5em;
+    left: 0;
+    margin-bottom: 1.5em;
+  }
+  #text-block_aboutUs > h3 {
+    width: 90%;
+    position: relative;
+    top: 1.3em;
+    left: 0;
+  }
+  #card:nth-last-child(2) {
+    display: none;
+  }
+  #icon {
+    margin: 0 5em 1em 5em;
+  }
+  #donation {
+    flex-direction: column-reverse;
+  }
+  #donation > img {
+    width: 67%;
+    margin: 3.5em auto 6em;
+  }
+  #donateInfo {
+    width: 52%;
+    margin: 0 auto;
+  }
+  #donateInfo > h3 {
+    width: 80%;
+    margin: 2.4em 1em 0 0;
+  }
+  #donateInfo > h5 {
+    font-size: 15px;
+    margin: 1.2em 0.5em 1.1em 0;
+    color: #545454;
+  }
+  #donateInfo > p {
+    margin: 1.5em 3em 0 0;
+    color: #B2B2B2;
+  }
+  #credit-card {
+    width: fit-content;
+  }
+}
+
+@media (max-width: 768px) {
+  #ourFriends, #help, #donation, #aboutUs, #main, #blocks {
+    width: 320px;
+  }
+  .header-main {
+    width: 100%;
+    margin-top: -3em;
+    margin-bottom: 4em;
+  }
+  #notOnly {
+    flex-direction: column;
+  }
+  #notOnly > img{
+    position: relative;
+    top: 1rem;
+    left: 3.5rem;
+    width: 75%;
+    margin: 6rem 0 2rem 0;
+  }
+  #annotation {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    left: -2.5em;
+    width: 100%;
+  }
+  .hamburger-menu {
+    position: absolute;
+    display: block;
+    top: -1.5em;
+    right: -8em;
+  }
+  #annotation > h2, #annotation > p {
+    margin: 1em 0;
+    text-align: center;
+  }
+  #annotation > h2 {
+    font-size: 25px;
+  }
+  #annotation > p {
+    width: 95%;
+  }
+  #btnWrap {
+    position: relative;
+    left: 0;
+    margin: 2em 0 4em 0;
+    width: max-content;
+  }
+  #aboutUs {
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+  #aboutUs > img {
+    width: 80%;
+    margin-bottom: 5em;
+    top: 5em;
+    left: 0;
+  }
+  #text-block_aboutUs {
+    width: 100%;
+    margin: 0 auto;
+  }
+  #text-block_aboutUs > p {
+    width: 85%;
+    position: relative;
+    top: 2.5em;
+    left: 1.5em;
+    margin-bottom: 1.5em;
+  }
+  #text-block_aboutUs > h3 {
+    width: 90%;
+    position: relative;
+    top: 1.3em;
+    font-size: 25px;
+    text-align: center;
+  }
+  #ourFriends > h3 {
+    font-size: 25px;
+  }
+  #getBtn {
+    margin: 0 0 7em 0;
+  }
+  #btnArrow1, #btnArrow2 {
+    margin-bottom: 3em;
+  }  
+  #card:nth-last-child(-n+3) {
+    display: none;
+  }
+  #cardsBlock {
+    display: flex;
+    flex-flow: wrap;
+  }
+  #card {
+    order: 1;
+  }
+  #btnArrow1 {
+    order: 2;
+  }
+  #btnArrow2 {
+    order: 2;
+  }
+  #help > h3 {
+    font-size: 25px;
+  }
+  #icons {
+    justify-content: start;
+  }
+  #icon {
+    margin: 0 3em 0.5em 3em;
+  }
+  #icon > span{
+    font-size: 15px;
+  }
+  #icon > img{
+    width: 80%;
+  }
+  #donation {
+    flex-direction: column-reverse;
+  }
+  #donation > img {
+    width: 80%;
+    margin: 5em auto;
+  }
+  #donateInfo {
+    width: 100%;
+    margin: 0 auto;
+  }
+  #donateInfo > h3 {
+    width: 70%;
+    text-align: center;
+    font-size: 25px;
+    margin: 3em auto 0;
+  }
+  #donateInfo > h5 {
+    margin: 1.1em 0 1.1em 0.5em;
+  }
+  #donateInfo > p {
+    margin: 1.5em 1.6em 0;
+  }
+  #credit-card {
+    margin: 0 auto;
+  }
+  #credit-card > a {
+    font-size: 15px;
+  }
+}
